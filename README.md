@@ -5,7 +5,7 @@ A Python program to authorise your client application, schedule and extract Zoho
 
 The program runs by reading off configuration files and a client request response file.
 
-Simply, add your client credentials to `client_configuration.json`:
+* Simply, add your client credentials to `client_configuration.json`:
 
 ```
 {
@@ -16,7 +16,7 @@ Simply, add your client credentials to `client_configuration.json`:
 }
 ```
 
-Add the module name and a comma separated string of API field names you wish to extract to `client_module_configuration.json`:
+* Add the module name and a comma separated string of API field names you wish to extract to `client_module_configuration.json`:
 
 ```
 {
@@ -25,7 +25,7 @@ Add the module name and a comma separated string of API field names you wish to 
 }
 ```
 
-Open up a command line shell in the program directory and run:
+* Open up a command line shell in the program directory and run:
 
 ```
 >> python run.py
@@ -48,4 +48,4 @@ The code defaults to request data every 10 mins.
 
 #### Improvements
 
-This program was used while I worked on a dashboard application to display sales and on-boarding data. There are a lot of further improvements that can be done to these scripts, so feel free to clone this repository and improve the base source code. 
+This program was used while I worked on a dashboard application to display sales and on-boarding data. There are a lot of further improvements that can be done to these scripts, so feel free to clone this repository and improve the base source code.
