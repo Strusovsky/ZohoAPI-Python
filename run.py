@@ -63,6 +63,7 @@ def main():
         """
         get_module_data("Module", access_from_grant_tk, "file_name_example", "output_folder_example")
 
+
     # Access token call
     access_from_grant_tk = access_token_validation()
 
