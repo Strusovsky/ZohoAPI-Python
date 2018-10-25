@@ -7,7 +7,7 @@ The program runs by reading off configuration files and a client request respons
 
 * Simply, add your client credentials to `client_configuration.json`:
 
-```
+```json
 {
     "client_id":"client_id_goes_here",
     "client_secret":"client_secret_goes_here",
@@ -18,7 +18,7 @@ The program runs by reading off configuration files and a client request respons
 
 * Add the module name and a comma separated string of API field names you wish to extract to `client_module_configuration.json`:
 
-```
+```json
 {
     "Contacts":"api_field_1,api_field_2",
     "Leads":"api_field_1,api_field_2"
@@ -27,7 +27,7 @@ The program runs by reading off configuration files and a client request respons
 
 * Open up a command line shell in the program directory and run:
 
-```
+```python
 >> python run.py
 ```
 
@@ -36,7 +36,8 @@ The extraction file will get saved into either the program directory or a direct
 #### Amending the extract schedule
 
 To amend the extraction rate, go into the `run.py` file and amend the following code:
-```
+
+```python
 value = 10 # Amend value
 schedule.every(value).minutes.do(extract)
 while True:
