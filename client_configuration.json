@@ -1,0 +1,6 @@
+{
+    "client_id":"client_id_goes_here",
+    "client_secret":"client_secret_goes_here",
+    "grant_code":"grant_code_goes_here",
+    "redirect_uri":"redirect_uri_goes_here"
+}
